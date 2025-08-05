@@ -1,0 +1,118 @@
+.clientes-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.clientes-title{
+    text-align: center;
+    font-family: Tiempos Headline;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 40px;
+        color:#000033 ;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+.clientes-cards{
+    display: grid;
+    grid-template-columns: repeat(3,auto);   
+    gap: 20px;
+    padding-top: 50px;
+
+}
+.clientes-card{
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+.clientes-card p{
+font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+   color: #000033;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.client-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.client-info p{
+    padding-bottom: 25px;
+}
+.client-link{
+    font-family: Montserrat;
+        font-weight: 600;
+        margin-top: 10px;
+        font-style: SemiBold;
+        font-size: 18px;
+        color: #000033;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 30px;
+}
+.name{
+    padding-top: 10px;
+}
+.somos-title1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    color: #000033;
+    font-size: 40px;
+}
+#map{
+    background-color:#100FA8 ;
+}
+.map-img{
+    max-width: 900px;
+    width: 100%;
+}
+.map-content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@media (max-width:910px) {
+    .clientes-cards{
+        display: grid;
+            grid-template-columns: repeat(2, auto);
+    }
+}
+@media (max-width:694px) {
+    .clientes-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:700px){
+    .map-img {
+            max-width: 700px;
+            width: 100%;
+        }
+}
+@media (max-width:693px) {
+    .somos-card1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
+
+

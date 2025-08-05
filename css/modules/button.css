@@ -1,0 +1,36 @@
+.btn{
+  background-color: transparent;  
+  border-radius: 1px;
+  max-width: 182px;
+  width: 100%;
+  height: 56px;
+  border: 2px solid white;
+  color: white;
+  font-size: 18px;
+}
+.btn1 {
+    background-color: white;
+    border-radius: 1px;
+    max-width: 182px;
+    width: 100%;
+    height: 56px;
+    border: 2px solid white;
+    color: black;
+    font-size: 18px;
+}
+.btn2 {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.card-btn{
+  background-color: white;
+    border-radius: 8px;
+    max-width: 182px;
+    width: 100%;
+    height: 56px;
+    border: 2px solid white;
+    color: black;
+    font-size: 18px;
+}

@@ -1,0 +1,109 @@
+.point-card1{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    
+}
+.card1-list{
+    max-width: 613px;
+}
+.point-card1 h1{
+    font-family: Tiempos Headline;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 48px;
+       color:#000033 ;
+        line-height: 56px;
+        letter-spacing: 0%;
+        padding-bottom: 20px;
+}
+.span-text{
+    font-family: Tiempos Headline;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 48px;;
+        line-height: 56px;
+        letter-spacing: 0%;
+}
+.point-card1 p{
+    font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        color:#4D4D70 ;
+        line-height: 24px;
+        letter-spacing: 0%;
+        padding-bottom: 20px;
+}
+.point-card1 a{
+font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    color: #4D4D70;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.point-card2 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+
+}
+.point-card2 h1 {
+    font-family: Tiempos Headline;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    color: #000033;
+    line-height: 56px;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+}
+button{
+    padding: 10px;
+    background: #c7c7ca;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+.point-card2 p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    color: #4D4D70;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+    max-width: 600px;
+        width: 100%;
+}
+@media (max-width:953px) {
+    .card1-img{
+       max-width: 500px;
+       width: 100%;
+    }
+    .card2-img{
+    max-width: 400px;
+        width: 100%;
+    }
+}
+@media (max-width:841px) {
+    .point-card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+        .point-card2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+}

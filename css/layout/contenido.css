@@ -1,0 +1,86 @@
+.contenido-cards{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.contenido-content{
+    padding-top: 60px;
+}
+.contenido-card{
+padding: 10px;
+border: 1px solid white;
+border-radius: 1px;
+max-width: 348px;
+width: 100%;
+box-shadow: 0px 14px 24px 0px #0000330A;
+}
+.contenido-card a{
+font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color:#000033 ;
+    line-height: 20px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.contenido-card h3{
+font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+color: #000033;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 13px;
+    padding-top: 20px;
+}
+.contenido-title{
+    font-family: Tiempos Headline;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 48px;
+        color: #000033;
+        line-height: 56px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+
+.contenido-card p{
+color: #000033;
+font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 8px;
+}
+.contenido-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: grey;
+}
+@media (max-width:949px) {
+    .contenido-cards{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media (max-width:640px) {
+    .contenido-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .contenido-card {
+            justify-content: center;
+             text-align: center;
+            align-items: center;
+        }
+
+}

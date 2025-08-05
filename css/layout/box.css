@@ -1,0 +1,71 @@
+#box{
+    background-color:#100FA8 ;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+.box-content{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 100px;
+}
+.box-list h1{
+    font-family: Tiempos Headline;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 48px;
+        color: white;
+        line-height: 56px;
+        letter-spacing: 0%;
+        padding-bottom: 23px;
+}
+.box-list p{
+    font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+       color: white;
+        line-height: 24px;
+        letter-spacing: 0%;
+        padding-bottom: 23px;
+}
+.box-btn{
+background-color: white;
+    border-radius: 1px;
+    max-width: 182px;
+    width: 100%;
+    height: 56px;
+    border: 2px solid white;
+    color: black;
+    font-size: 18px;
+}
+@media (max-width:1013px) {
+    .box-list h1{
+        font-size: 36px;
+    }
+    .box-img{
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media (max-width:871px) {
+    .box-list h1 {
+        font-size: 30px;
+    }
+
+    .box-img {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+@media (max-width:871px){
+    .box-content{
+        flex-direction: column;
+        text-align: center;
+    }
+        .box-img {
+            max-width: 300px;
+            width: 100%;
+        }
+}
+

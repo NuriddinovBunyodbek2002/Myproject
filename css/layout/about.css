@@ -1,0 +1,138 @@
+.about-title{
+font-family: Tiempos Headline;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: #000033;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 60px;
+}
+.about-card{
+    padding: 30px;
+    border: 1px solid grey;
+    border-bottom: 7px solid #000033;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+.analis{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.about-text{
+    padding-bottom: 20px;
+    font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+         color: #4D4D70;
+        line-height: 24px;
+        letter-spacing: 0%;
+}
+.about-link{
+font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    color:#000033 ;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.somos-title{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Tiempos Headline;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 40px;
+       color: #000033;
+        line-height: 48px;
+        letter-spacing: 0%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+}
+.somos-title1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Tiempos Headline;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    color: #000033;
+    line-height: 48px;
+    letter-spacing: 0%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.somos-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.somos-card1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+@media (max-width:1075px) {
+    .somos-card1 {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            gap: 40px;
+        }
+}
+@media (max-width:885px) {
+    .about-cards{
+        grid-template-columns: repeat(2, auto);
+    }
+    .somos-card{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 40px;
+    }
+    .about-title{
+        display: flex;
+        align-items: center;
+       text-align: center;
+       
+    }
+   
+}
+@media (max-width:586px){
+    .about-title{
+     font-size: 37px;
+    }
+}
+@media (max-width:570px) {
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .somos-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+
+}

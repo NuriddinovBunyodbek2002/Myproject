@@ -1,0 +1,152 @@
+.footer-card h1{
+font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    color:#000033 ;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-bottom: 10px;
+}
+.footer-card p{
+font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #000033;
+    line-height: 20px;
+    letter-spacing: 0%;
+    padding-bottom: 5px;
+}
+.footer-card h3{
+    font-family: Montserrat;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        color: #000033;
+        line-height: 24px;
+        letter-spacing: 0%;
+        padding-bottom: 13px;
+        padding-top: 15px;
+}
+.footer-list{
+    display: flex;
+    gap: 20px;
+}
+.footer-card{
+    padding: 10px;
+}
+.footer-cards{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    /* gap: 40px; */
+    justify-content: space-between;
+    align-items: start;
+}
+.somo-images{
+    display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 30px;
+}
+.footer-logo h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.Afiliaciones{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+@media (max-width:1223px) {
+    .footer-card h1{
+        font-size: 15px;
+    }
+        .footer-card p{
+            font-size: 10px;
+        }
+                .footer-card h3{
+                font-size: 11px
+                }
+    
+
+      .footer-logo h1{
+        font-size: 20px;
+    }
+    .logo-img{
+        width: 90px;
+    }
+        .logo-emp {
+           height: 90px;
+        }
+
+    .somo-img{
+    width: 90px;
+    }
+        .Afiliaciones{
+            font-size: 20px;
+        }
+}
+@media (max-width:811px) {
+    .footer-cards {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 70px;
+            /* justify-content: space-between; */
+            align-items: start;
+            justify-content: center;
+        }
+}
+@media (max-width:640px) {
+    .footer-cards {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-list{
+        justify-content: center;
+    }
+    
+        .footer-card h1 {
+            font-size: 36px;
+        }
+    
+        .footer-card p {
+            font-size: 25px;
+            padding-top: 10px;
+        }
+    
+        .footer-card h3 {
+            font-size: 29px
+        }
+    
+    
+        .footer-logo h1 {
+            font-size: 36px;
+        }
+}
+@media (max-width:466px) {
+    
+
+    .footer-list {
+        justify-content: center;
+    }
+
+    .footer-card h1 {
+        font-size: 20px;
+    }
+
+    .footer-card p {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .footer-card h3 {
+        font-size: 18px
+    }
+
+
+    .footer-logo h1 {
+        font-size: 20px;
+    }
+}
